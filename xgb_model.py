@@ -52,7 +52,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(train.drop(['labels', 'cus
                                                      train['labels'],test_size=0.05, random_state=42)
 
 # 自定义损失函数
-penalty = 40 #惩罚因子
+penalty = 30 #惩罚因子
 def Weighted_LogLoss(preds, xgbtrain):
     labels = xgbtrain.get_label()
     sig_preds = 1/(1+np.exp(-preds))
