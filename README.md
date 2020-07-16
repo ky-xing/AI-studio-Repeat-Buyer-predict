@@ -8,9 +8,9 @@
 
 ## 数据和比赛资料
 
-[比赛链接]: https://aistudio.baidu.com/aistudio/competition/detail/21
-[比赛数据]: https://aistudio.baidu.com/aistudio/datasetDetail/19383
+[**比赛链接**](https://aistudio.baidu.com/aistudio/competition/detail/21)
 
+[**比赛数据**](https://aistudio.baidu.com/aistudio/datasetdetail/19383)
 比赛方提供了一段时间内某电商平台的订单数据，并对数据进行了模拟生成，对某些特征含义进行了隐藏，进行了脱敏处理。
 
 比赛并未给出完整的训练集和测试集，需要从订单数据集中抽取特征并自行构建。
